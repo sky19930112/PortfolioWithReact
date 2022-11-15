@@ -2,7 +2,10 @@ import React from 'react';
 
 import NavBar from './components/Nav/Nav';
 import Footer from './components/Footer/Footer.js'
-import renderPage from './utils/Render.js'
+import About from './components/About'
+import Contact from './components/Contact/Contact'
+import Work from './components/Work/Work'
+import Resume from './components/Resume/Resume.js'
 
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -11,7 +14,7 @@ function App() {
     <>
     <CssBaseline />
     <NavBar />
-    <renderPage />
+    <About />
     <Footer />
     </>
   )

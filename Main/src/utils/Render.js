@@ -18,7 +18,7 @@ const renderPage = () => {
           case "Resume":
               return <Resume />;
           default:
-              return null;
+              return <About />;
       }
   };
 
