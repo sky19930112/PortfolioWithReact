@@ -1,8 +1,16 @@
 import React from 'react';
-import Welcome from './components/Welcome';
+import ResponsiveAppBar from './components/Nav/Nav';
+import About from './components/About'
+import CssBaseline from '@mui/material/CssBaseline';
 
 function App() {
-  return <Welcome />;
+  return (
+    <>
+    <CssBaseline />
+    <ResponsiveAppBar />;
+    <About />
+    </>
+  )
 }
 
 export default App;
